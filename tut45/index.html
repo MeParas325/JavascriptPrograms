@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class methods in javascript</title>
+    <style>
+        .red{
+           color: white;
+           background-color: red;
+        }
+        .yellow{
+           background: yellow;
+           color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        I am the first container
+    </div>
+    <script>
+        console.log("Jacascript class methods.");
+        first.classList.add("red");
+        first.classList.add("yellow");
+        console.log(first.classList);
+        first.classList.toggle("yellow");
+        first.class = "yellow";
+        console.log(first.classList);
+        first.classList.remove("yellow");
+        console.log(first.classList);
+    </script>
+</body>
+</html>
